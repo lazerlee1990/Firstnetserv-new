@@ -74,6 +74,7 @@ export default function Footer() {
                 </Row>
                 
             </Container>
+           
         </Container>
     )
 }
