@@ -1,0 +1,48 @@
+#corner {
+    visibility: collapse;
+}
+
+tr {
+    width: 100px;
+    text-align: center;
+    border: 2px solid #edf4fd;
+}
+
+table.table th{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+th > span {
+    font-size: 42px;
+    font-weight: 700;
+    color: #3562df;
+}
+
+#tr-head > th {
+    font-size: 24px;
+    color: #3a4368;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+
+
+
+#tr-body > td {
+    font-size: 14px;
+    color: rgb(83 109 135 / 1);
+    font-weight: 400;
+}
+.table thead th {
+    border-bottom: 2px solid #edf4fd;
+}
+
+.table-bordered td, .table-bordered th {
+    border: 2px solid #edf4fd;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color:#f6faff;
+}

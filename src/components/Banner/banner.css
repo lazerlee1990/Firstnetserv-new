@@ -1,0 +1,61 @@
+.banner-wrapper {
+    display: flex;
+    flex-direction: row;
+    background-color: #3464e0;
+    min-height: 45vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-text {
+    justify-content: center;
+    text-align: center;
+    min-width: 50%;
+}
+
+.banner-text > h1 {
+    color: white;
+}
+.banner2-text > h3 {
+    color: #fff;
+    font-size: 52px;
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    font-family: 'Montserrat',sans-serif;
+    text-align: left;
+
+}
+
+.banner2-wrapper {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 20vh;
+    max-width:100%;
+    background-image: url(/01-flake-home-page3-1.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.button2-container.col {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    min-width: max-content;
+    padding-top: 5px;
+    text-align: right;
+}
+
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: max-content;
+    margin-top: 30px;
+}
+
+

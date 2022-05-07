@@ -1,0 +1,82 @@
+.footer-wrapper {
+    background-color: #272f4a;
+    background-image: url(https://cdn.shortpixel.ai/client/q_lossless,ret_img/https://firstnetserv.co.uk/wp-content/uploads/2018/08/footer-map.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.footer-container {
+    padding-top: 60px;
+}
+
+#footer-ul {
+    padding-inline-start: 0px;
+    line-height: 36px;
+}
+
+#no-padding {
+    padding-left: 0;
+}
+
+#footer-image {
+    height: auto;
+    width: 100%;
+    max-width: 351px;
+    padding-bottom: 15px;
+}
+
+#footer-title {
+    color: white;  
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+
+#footer-text {
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: left;
+    max-width: 350px;
+    padding-top: 10px;
+}
+
+#footer-link {
+    color: #a3b0d7;
+    transition: all .3s ease;
+    font-size: 14px;
+    font-weight: 500;
+}
+#footer-link:hover {
+    color: white;
+
+}
+
+.footer-block {
+    min-width: max-content;
+    padding-top: 15px;
+}
+
+#footer-card {
+    display: flex;
+    background: #21294280;
+    padding: 5px 0px;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+#footer-card-text {
+    color: white;
+}
+
+#f-link {
+    color: #a3b0d7;
+}
+#f-link:hover {
+    color: white;
+}

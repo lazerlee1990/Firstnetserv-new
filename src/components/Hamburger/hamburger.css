@@ -1,0 +1,29 @@
+.navbar {
+    box-shadow: none!important;
+}
+
+li.nav-item {
+    height: 80px;
+}
+a.nav-link.Ripple-parent {
+    display: flex!important;
+    height: 60px;
+    border-radius: 12px;
+    align-items: center;
+    padding-left: 8px;
+    text-transform: uppercase;  
+}
+
+a.nav-link.Ripple-parent:hover {
+    background: rgba(64, 52, 252, .1);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+   
+}
+
+.main-logo-burger {
+    transform: translatey(-6px) translatex(-29px);
+}
+
+#nav-icon1 {
+    transform: translateX(30px)!important;
+}

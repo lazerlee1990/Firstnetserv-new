@@ -1,0 +1,24 @@
+.shared-wrapper {
+ opacity: 1;
+ transition-duration: 500ms;
+}
+
+
+#heading-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 180px;
+    padding-bottom: 30px;
+}
+
+#card-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 80px;
+    
+}
+
