@@ -61,7 +61,7 @@ export default function WebDesign() {
                             style={{ maxHeight: "300px", padding: "0 150px" }}
                             image="/grathics.png"
                             link="/football"
-                            text="FLYER"
+                            text="Flyer"
                             linkText={"Grathics"}
                         />
                     </Col>
