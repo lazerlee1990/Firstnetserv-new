@@ -47,6 +47,8 @@ const ideal365 = Loadable(() => import('./pages/Sub/Ideal365'));
 const metro = Loadable(() => import('./pages/Sub/Metro'));
 const stream = Loadable(() => import('./pages/Sub/Stream'));
 const djsoundrental = Loadable(() => import('./pages/Sub/djsoundrental'));
+const grathics = Loadable(() => import('./pages/Sub/grathics'));
+const video = Loadable(() => import('./pages/Sub/video'));
 
 
 const RouterTransition = ({children}) => {
@@ -97,6 +99,8 @@ const App = () => {
         <Route path='/metro' component={metro}/>  
         <Route path='/stream' component={stream}/>  
         <Route path='/djsoundrental' component={djsoundrental}/>  
+        <Route path='/grathics' component={grathics}/>  
+        <Route path='/video' component={video}/>  
       </RouterTransition>
       <Footer />   
     </Router>
