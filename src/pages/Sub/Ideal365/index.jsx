@@ -22,7 +22,8 @@ export default function Ideal365() {
                         <Row>
                         </Row>
                     </Container>
-                <Col className="projectdetails" xxl={6} md={12}><img src="/ideal365.jpg" alt="features" className="top-img flip" /></Col>
+                <Col className="projectdetails" xxl={6} md={12}><img src="/ideal365.jpg" alt="features" className="top-img" /></Col>
+                <p></p>
             </Container>
         </div>
     )

@@ -23,6 +23,7 @@ export default function Individual() {
                         </Row>
                     </Container>
                 <Col className="projectdetails" xxl={6} md={12}><img src="/Individual.jpg" alt="features" className="top-img" /></Col>
+                <p></p>
             </Container>
         </div>
     )
