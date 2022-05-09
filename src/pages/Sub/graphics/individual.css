@@ -22,3 +22,9 @@ h2 {
     margin-right: auto;
     width: 60%;
 }
+.center{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}

@@ -12,15 +12,10 @@ h2 {
 }
 
 .projectdetails{
-    text-align: center;
-    display: block;
+    display: flex;
     justify-content: center;
-    align-items: center;
-    margin: auto;
-    width: 100%;
-    height: 100%;
-
-}
+    position: relative;
+   }
 .top-img flip{
     text-align: center;
     display: block;
@@ -28,4 +23,10 @@ h2 {
     align-items: center;
     margin: auto;
     width: 100%;
+}
+.center{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
 }

@@ -12,8 +12,13 @@ h2 {
 }
 
 .projectdetails{
-    height:100%;
-    width: 100%;
-    margin-right:-28px;
-    margin-left:-28px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+   }
+.center{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
 }
