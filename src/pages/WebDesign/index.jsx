@@ -60,9 +60,9 @@ export default function WebDesign() {
                         <SlidingCard
                             style={{ maxHeight: "300px", padding: "0 150px" }}
                             image="/grathics.png"
-                            link="/grathics"
+                            link="/graphics"
                             text="Flyers"
-                            linkText={"Grathics"}
+                            linkText={"graphics"}
                         />
                     </Col>
 
