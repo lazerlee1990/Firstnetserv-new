@@ -22,9 +22,8 @@ export default function Individual() {
                         <Row>
                         </Row>
                     </Container>
-                    <Row>                
-                    <Row style={{width: "100%"}}><Col className="projectdetails" xxl={6} md={12}><img src="/Football-kit.jpg" alt="features" className="top-img" /></Col></Row>
-                    </Row>
+                                   
+                    <Row style={{width: "100%"}}><Col className="projectdetails" xxl={6} md={12}><img src="/Football-kit.jpg" alt="features" className="center" /></Col></Row>
                 
                 <p></p>
             </Container>
