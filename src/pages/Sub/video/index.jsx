@@ -16,13 +16,24 @@ export default function Individual() {
                             <Col className="textdescription" xxl={6} md={12}><h2>Video Design</h2>
                             <Container> <p> </p> 
                             </Container></Col>
-                        
-
                         </Row>
-                        <Row style={{width: "100%"}}>
-                            < Col className="center" > <iframe width="100%" height="515" src="https://www.youtube.com/embed/lEq4YT7NWt4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></Col>
+                        <div>
+                            <Row style={{width: "100%"}}>
+                                < Col className="center" > <iframe width="870px" height="515" src="https://www.youtube.com/embed/lEq4YT7NWt4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></Col>
+                            </Row>
+                        </div>
+                       <div> <Row style={{width: "100%"}}>
+                            < Col className="center" > <iframe width="870px" height="515" src="https://www.youtube.com/embed/QpUxib7yBuY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></Col>
                         </Row>
-                       
+                        </div>
+                        <div> <Row style={{width: "100%"}}>
+                            < Col className="center" > <iframe width="870px" height="515" src="https://www.youtube.com/embed/HYIZt6zfs9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></Col>
+                        </Row>
+                        </div>
+                        <div> <Row style={{width: "100%"}}>
+                            < Col className="center" > <iframe width="870px" height="515" src="https://www.youtube.com/embed/rOYVFYdIE3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></Col>
+                        </Row>
+                        </div>
                     </Container>
                 <Col className="projectdetails" xxl={6} md={12}><img src="" alt="features" className="top-img" />  </Col>
               
