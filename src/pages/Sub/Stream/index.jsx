@@ -22,7 +22,8 @@ export default function Individual() {
                         <Row>
                         </Row>
                     </Container>
-                <Col className="projectdetails" xxl={6} md={12}><img src="/Streamhostlink.jpg" alt="features" className="top-img" /></Col>
+                    <Row style={{width: "100%"}}><Col className="projectdetails" xxl={6} md={12}><img src="/Streamhostlink.jpg" alt="features" className="center" /></Col></Row>
+                
                 <p></p>
             </Container>
         </div>

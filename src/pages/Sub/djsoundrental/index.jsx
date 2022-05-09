@@ -23,11 +23,11 @@ export default function Individual() {
                         <Row>
                         </Row>
                     </Container>
-                <Row>
+                    <Row style={{width: "100%"}}>
                     <Col className="projectdetails">
-                        <img src="/DJsoundrental.jpg" alt="features" className="top-img" />
+                        <img src="/DJsoundrental.jpg" alt="features" className="center" />
                     </Col>
-                </Row>
+                    </Row>
                 <div>
                     <p>
                        
