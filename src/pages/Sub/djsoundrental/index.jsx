@@ -30,7 +30,7 @@ export default function Individual() {
                 </Row>
                 <div>
                     <p>
-                        {personal_data}
+                       
                     </p>
                 </div>
 
