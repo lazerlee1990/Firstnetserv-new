@@ -23,7 +23,7 @@ export default function Individual() {
                         </Row>
                     </Container>
                                    
-                    <Row style={{width: "60%"}}><Col className="projectdetails" xxl={6} md={12}><img src="/Football-kit.jpg" alt="features" className="center" /></Col></Row>
+                    <Row style={{width: "50%"}}><Col className="projectdetails" xxl={6} md={12}><img src="/Football-kit.jpg" alt="features" className="center" /></Col></Row>
                 
                 <p></p>
             </Container>
