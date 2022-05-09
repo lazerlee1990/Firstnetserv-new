@@ -19,6 +19,11 @@ export default function Individual() {
                         </Row>
                         <div>
                             <Row style={{width: "100%"}}>
+                                < Col className="center" > <iframe width="870px" height="515" src="https://www.youtube.com/embed/jW2rlfUDDrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></Col>
+                            </Row>
+                        </div>
+                        <div>
+                            <Row style={{width: "100%"}}>
                                 < Col className="center" > <iframe width="870px" height="515" src="https://www.youtube.com/embed/lEq4YT7NWt4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></Col>
                             </Row>
                         </div>
