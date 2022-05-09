@@ -1,16 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './individual.css';
 import {Container, Row, Col} from 'react-bootstrap';
 import {BreadCrumb} from '../../../components/BreadCrumb';
 
 export default function Individual() {
-    const [personal_data, set_personal_data] = useState(null)
-
-
-    useEffect(() => {
-        fetch("http://localhost:3005/liam")
-        .then(data => console.log(data))
-    }, [])
 
     return (
         <div className="individual-wrapper">
