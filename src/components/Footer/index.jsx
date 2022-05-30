@@ -44,12 +44,10 @@ export default function Footer() {
                     </Col>
                     <Col className='footer-block' id='no-padding' lg={2}>
                         <Block 
-                            title='Services'
+                            title='About us'
                             links={[
-                                ["/web-design", "Web Design"],
-                                ["/shared-hosting", "Shared Hosting"],
-                                ["/vps-hosting", "VPS Hosting"],
-                                ["/support", "Support"]
+                                ["/Luke", "Luke Falla"],
+                                ["/Liam", "Liam Barnett"],
                             ]}
                         />
                     </Col>
