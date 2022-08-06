@@ -42,66 +42,6 @@ export default function Home() {
                     </path>
                 </svg>
             </Container>
-            <Container className='home-content' fluid style={{width: "70%", maxWidth: "1440px", marginTop: '-200px'}}>
-                <div className="heading-wrapper">
-                    <MDBAnimation type='fadeInRight' reveal>
-                        <Row className="home-header">
-                                <h1 className='.animated .bounceInLeft' id='page-title'><span style={{color: '#3464e0'}}>Quality Hosting</span> At Great Prices</h1>
-                        </Row>
-                        <Row className="justify-content-center">
-                            <img style={{transform: `rotate(${deg}deg)`}} className="logo-svg" src="/icon.fw_.svg" alt="logo-mini" />
-                        </Row>
-                        <Row className="heading-para-wrapper justify-content-center p-4 align-items-center">
-                            <p style={{textAlign: 'center', fontSize: '18px'}} >Top quality UK hosting starting from as low as <span style={{color: '#3464e0', fontWeight: '600'}}>£4.99</span>/Monthly.</p>
-                        </Row>
-                    </MDBAnimation>
-                </div>
-                <Row className="price-cards-wrapper justify-content-center">
-                    <MDBAnimation className="price-cards-wrapper" type='bounceInLeft' delay='1.5s' reveal>
-                        <BigCard 
-                            title={"Personal"}
-                            image={"/personal-1.png"}
-                            price={"4.99"}
-                            space={"100 GB"}
-                            parked={"5"}
-                            sub={"25"} 
-                            databases={"5"} 
-                            email={"3"} 
-                            ram={"1.2 GB"} 
-                            
-                        />
-                    </MDBAnimation>
-                    <MDBAnimation type='bounceInLeft' delay='1s' reveal>
-                        <BigCard 
-                            title={"Business"} 
-                            image={"/business-1.png"} 
-                            price={"9.99"} 
-                            space={"150 GB"} 
-                            parked={"Unlimited"} 
-                            sub={"Unlimited"} 
-                            databases={"10"} 
-                            email={"5"} 
-                            ram={"2.4 GB"} 
-                            cla={"mid-card"}
-                            
-                        />
-                    </MDBAnimation>
-                    <MDBAnimation type='bounceInLeft' delay='.5s' reveal>
-                        <BigCard 
-                            title={"Enterprise"} 
-                            image={"/enterprice-1.png"} 
-                            price={"14.99"} 
-                            space={"250 GB"} 
-                            parked={"Unlimited"} 
-                            sub={"Unlimited"} 
-                            databases={"Unlimited"} 
-                            email={"Unlimited"} 
-                            ram={"4 GB"}
-                            
-                        />
-                    </MDBAnimation>
-                </Row>
-            </Container>
             <div className="mid-section-wrapper br-up">
                 <Container style={{width: "70%", maxWidth:"1440px",  padding: "0", paddingTop: "180px"}}>
                     <MDBAnimation  type='fadeInRight'  reveal>
