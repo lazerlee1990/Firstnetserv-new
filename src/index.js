@@ -102,6 +102,7 @@ const App = () => {
         <Route path='/djsoundrental' component={djsoundrental}/>  
         <Route path='/graphics' component={graphics}/>  
         <Route path='/video' component={video}/>  
+        <Route path='/recruitment' component={recruitment}/>  
       </RouterTransition>
       <Footer />   
     </Router>
