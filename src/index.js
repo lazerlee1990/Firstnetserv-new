@@ -49,6 +49,7 @@ const stream = Loadable(() => import('./pages/Sub/Stream'));
 const djsoundrental = Loadable(() => import('./pages/Sub/djsoundrental'));
 const graphics = Loadable(() => import('./pages/Sub/graphics'));
 const video = Loadable(() => import('./pages/Sub/video'));
+const Recruitment = Loadable(() => import('./pages/Sub/Recruitment'));
 
 
 const RouterTransition = ({children}) => {
