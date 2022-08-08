@@ -49,7 +49,7 @@ const stream = Loadable(() => import('./pages/Sub/Stream'));
 const djsoundrental = Loadable(() => import('./pages/Sub/djsoundrental'));
 const graphics = Loadable(() => import('./pages/Sub/graphics'));
 const video = Loadable(() => import('./pages/Sub/video'));
-const Recruitment = Loadable(() => import('./pages/Sub/Recruitment'));
+const recruitment = Loadable(() => import('./pages/Sub/Recruitment'));
 
 
 const RouterTransition = ({children}) => {
@@ -102,7 +102,6 @@ const App = () => {
         <Route path='/djsoundrental' component={djsoundrental}/>  
         <Route path='/graphics' component={graphics}/>  
         <Route path='/video' component={video}/>  
-        <Route path='/recruitment' component={recruitment}/>  
       </RouterTransition>
       <Footer />   
     </Router>
